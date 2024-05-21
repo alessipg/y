@@ -29,19 +29,17 @@ document.addEventListener('DOMContentLoaded', (event) => {
             }
             const $listaPosts = document.querySelector('.listaPosts');
             $listaPosts.insertAdjacentHTML('afterbegin', `
-            <div>
-                <div class="user-container">
-                    <li data-id="${idInterno}">
+            <div class="post">
+                <li data-id="${idInterno}">
+                    <div class="usuario">
                         <img src="pedro.png" class="user">
-                        <div class="usuario">
-                            <h2 class="username">${dados.owner}</h2>
-                        </div>
-                        <button class="btn-delete">Delete</button>
-                        <span contenteditable>
+                        <h2 class="username">${dados.owner}</h2>
+                    </div>
+                    <button class="btn-delete">Delete</button>
+                    <span contenteditable>
                         ${dados.content}
-                        </span>
-                    </li>
-                </div>
+                    </span>
+                </li>
             </div>
             `);
         },
