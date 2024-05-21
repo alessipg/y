@@ -56,24 +56,3 @@ h1 {
     color: #00539f;
     text-shadow: 3px 3px 3px black;
 }
-
-.options{
-    font-weight: bold;
-    letter-spacing: 2px;
-    font-size: 2em;
-}
-nav{
-    display: inline-block;
-    margin:10px 20px
-}
-.sub-menu-wrap{
-    position: absolute;
-    top: 100%;
-    right: 10%;
-    width: 320px;
-}
-.sub-menu{
-    padding: 20px;
-    margin: 10px;
-    
-}
